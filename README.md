@@ -1,5 +1,10 @@
 # ORIGINAL NAME : Luna vs Pickles
 
+
+Developed a 2D game using C# and the Unity engine. The game implements user settings and data
+management features to operate the game. The game challenges players to navigate a character through obstacles, with game-over conditions based on collision detection and added background particles.
+
+
 ## How to run:
 
 It is best to use UNITY. Install these files, then transport them to Unity. 
