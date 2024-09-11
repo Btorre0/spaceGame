@@ -1,11 +1,11 @@
-## ORIGINAL NAME : Luna vs Pickles
+# ORIGINAL NAME : Luna vs Pickles
 
-# How to run:
+## How to run:
 
 It is best to use UNITY. Install these files, then transport them to Unity. 
 I had the help of https://www.youtube.com/@GMTK to build this game. 
 
-# How to play:
+## How to play:
 
 When you click the start button, it should automatically throw the cat into the air. You must click the space button to keep it in the air. Try to navigate through the pickles. DO NOT let the cat get in contact with the pickles. If you do, game over. 
 
