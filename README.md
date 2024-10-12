@@ -22,8 +22,7 @@ The system automatically counts how many you've done so as you navigate the pick
 ## Installation
 
 -- install the Unity Hub application
-
-[text](https://unity.com/download)
+    [Unity Website](https://unity.com/download)
 
 1. git clone the repository to the local machine
 
@@ -65,7 +64,7 @@ If any other issues present, refer to the Console window for error messages and 
 - Install the Unity test frame
     - Ensuring that the Unity project has the Unity test Framework installed- you can add it via the Unity Package Manager.
     - install .NET SDK; Ensure you have the .NET SDK installed on your machine.
-                you can download it from [text](https://dotnet.microsoft.com/en-us/download)
+                you can download it from [microsoft](https://dotnet.microsoft.com/en-us/download)
 
 - Install the C# Extension
 
@@ -74,7 +73,7 @@ If any other issues present, refer to the Console window for error messages and 
 - Create a test Script and place it in the ```Assets/Tests``` directory. Unity typically uses the NUnit framework for testing.
 
 An example of a test script:
-
+```
 Using NUnit.Framework;
 
 public class ExampleTest
@@ -85,7 +84,7 @@ public class ExampleTest
         Assert.AreEqual(1, 1);
     }
 }
-
+```
 - run the test: ```Window > General > Test Runner```
 - run the test from the command line:
     unity -runTests -projectPath <path-to-your-project> -testResults <path-to-results-file>
