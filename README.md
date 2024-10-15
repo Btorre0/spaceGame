@@ -67,7 +67,7 @@ If any other issues present, refer to the Console window for error messages and 
 - Create a test Script and place it in the ```Assets/Tests``` directory. Unity typically uses the NUnit framework for testing.
 
 An example of a test script:
-```
+~~~cpp
 Using NUnit.Framework;
 
 public class ExampleTest
@@ -78,7 +78,8 @@ public class ExampleTest
         Assert.AreEqual(1, 1);
     }
 }
-```
+~~~
+
 - run the test: ```Window > General > Test Runner```
 - run the test from the command line:
     unity -runTests -projectPath <path-to-your-project> -testResults <path-to-results-file>
